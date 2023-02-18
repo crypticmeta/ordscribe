@@ -4,7 +4,7 @@ import React from 'react'
 const Hero1 = () => {
   return (
     <div
-    className='bg-black'>
+    className=''>
         <div className='text-white text-center font-bold  xl:px-10  md:text-3xl lg:text-5xl '>
             <p className='fira py-10 '>
             IMMUTABLE DATA STORAGE ON THE MOST DECENTRALIZED NETWORK IN THE WORLD 

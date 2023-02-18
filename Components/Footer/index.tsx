@@ -3,7 +3,7 @@ import {FaDiscord} from 'react-icons/fa'
 import {BsTwitter} from 'react-icons/bs'
 const Footer = () => {
   return (
-    <div className='bg-black text-white flex justify-between items-center px-4 fira'>
+    <div className=' text-white flex justify-between items-center px-4 fira'>
         <div className='flex cursor-pointer items-center w-4/12 text-4xl space-x-3'>
            <BsTwitter/>
            <FaDiscord/>

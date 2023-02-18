@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import { SlPicture } from "react-icons/sl";
-const Upload = () => {
+const Address = () => {
   return (
     <div className="min-h-screen  text-white fira">
          <div
@@ -16,27 +16,23 @@ const Upload = () => {
           />
         </div>
       <Header />
-    <div className='relative z-[1] bg-black bg-opacity-50'>
+    <div className='relative z-[1] min-h-screen bg-black bg-opacity-50'>
     <div className="pt-10">
-        <div className="flex justify-center px-10">
-          <div className="w-full  md:w-8/12 lg:w-4/12 border-2 py-4 space-y-10">
-            <p className="text-center md:text-3xl">Upload Image Content</p>
-            <div className="text-9xl flex justify-center">
-              <SlPicture />
-            </div>
-            <p className="text-center md:text-2xl">Max size: 390kb</p>
-          </div>
+        <div className="flex justify-center  px-10">
+              <div className=" md:w-[50%]">
+                <input className="w-full py-1 text-2xl bg-transparent border-2" placeholder="Enter receiving BTC address"  type='text' />
+              </div>
         </div>
       </div>
-      <div className=" fira space-y-4 pt-10 pb-20">
+      <div className=" fira space-y-4 px-10 md:px-0 pt-10 pb-20">
         <p className="uppercase text-center text-xl md:text-2xl tracking-wider font-semibold">
-          Recommended format:webp
+         which wallet can store ordinals?
         </p>
         <p className="text-center text-sm px-10 md:text-xl">
-          .webp format provides the most efficient image compression.
+          You can recieve,but not send, ordinals with <a href=""><span className="text-blue-500">Sparrow</span></a>wallet.
         </p>
         <p className="text-center text-sm md:text-xl">
-            Convert your image format <a href=""><span className="text-blue-500">here.</span></a>
+        To send ordinals out, you will currently need a full BTC node.
         </p>
       </div>
       <Footer />
@@ -45,4 +41,4 @@ const Upload = () => {
   );
 };
 
-export default Upload;
+export default Address;

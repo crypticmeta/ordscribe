@@ -9,13 +9,23 @@ import bg from  "../public/assets/images/bg1.png"
 const Home: NextPage = () => {
   return (
     <div
-   className='bg-black min-h-screen
-   '
+   className=' min-h-screen
+   relative'
    >
+     <div
+          style={{ zIndex: -1 }}
+          className="fixed top-0 bottom-0 right-0 left-0"
+        >
+          <img
+            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            src="/assets/images/bg1.png"
+            alt="bg"
+          />
+        </div>
        <Head>
          <title>Ordscribe</title>
        </Head>
-       <div  className=''>
+       <div  className='relative z-[1] bg-black bg-opacity-50'>
           <Header/>
           <Hero1/>
           <Footer/>
