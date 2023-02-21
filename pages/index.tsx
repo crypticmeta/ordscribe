@@ -17,7 +17,7 @@ const Home: NextPage = () => {
           className="fixed top-0 bottom-0 right-0 left-0"
         >
           <img
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            style={{ width: "100%", height: "100%", objectFit: "cover", opacity:"0.9" }}
             src="/assets/images/bg1.png"
             alt="bg"
           />
@@ -25,7 +25,7 @@ const Home: NextPage = () => {
        <Head>
          <title>Ordscribe</title>
        </Head>
-       <div  className='relative z-[1] bg-black bg-opacity-50'>
+       <div  className='relative z-[1] min-h-screen bg-black bg-opacity-60'>
           <Header/>
           <Hero1/>
           <Footer/>
