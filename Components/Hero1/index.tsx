@@ -5,7 +5,7 @@ const Hero1 = () => {
   return (
     <div
     className=''>
-        <div className='text-white text-center font-bold  xl:px-10  md:text-3xl lg:text-5xl '>
+        <div className='text-white text-center font-bold lg:px-20 xl:px-10  md:text-3xl lg:text-5xl '>
             <p className='fira py-10 '>
             IMMUTABLE DATA STORAGE ON THE MOST DECENTRALIZED NETWORK IN THE WORLD 
             </p>
@@ -23,9 +23,9 @@ const Hero1 = () => {
                 </div>
                 <div className='w-full lg:w-3/12 py-10 lg:py-0 cursor-pointer text-white fira md:space-y-2'>
                 <div className='flex px-5 md:pt-10 justify-center'>
-                      <img src='/assets/images/image.png'/>
+                    <Link href="/upload" ><img src='/assets/images/image.png'/></Link>
                    </div>
-                    <p className='text-center text-xl pt-6 md:pt-12 lg:pt-20 xl:pt-7'>IMAGE</p>
+                   <Link href="/upload" ><p className='text-center text-xl pt-6 md:pt-12 lg:pt-20 xl:pt-7'>IMAGE</p></Link>
                 </div>
                 <div className='w-full lg:w-3/12 cursor-pointer text-white fira '>
                 <div className='flex justify-center items-center  pt-10'>
