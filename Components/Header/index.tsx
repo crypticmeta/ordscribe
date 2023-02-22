@@ -7,8 +7,8 @@ import React from 'react'
         <div className=' lg:w-3/12' >
         <Link href="/"> <img className='' src='/assets/images/logo.png'/> </Link>
         </div>
-        <div className=' lg:w-5/12'>
-            <img className='' src='/assets/images/Boi.png'/>
+        <div className='text-white  lg:text-3xl fira lg:w-5/12'>
+            <p>Bitcoin Ordinal Inscription</p>
         </div>
     </div>
   )
