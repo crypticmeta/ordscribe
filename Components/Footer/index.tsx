@@ -5,7 +5,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <div className=' text-white flex justify-between items-center px-4 fira'>
-        <div className='flex cursor-pointer items-center w-4/12 text-4xl space-x-3'>
+        <div className='flex cursor-pointer items-center w-4/12 text-4xl px-10 space-x-3'>
            <Link href=""><BsTwitter/></Link>
            <Link href=""><FaDiscord/></Link>
            <Link  href=""><img className='w-[40%] py-4' src='/assets/images/brand.png'/></Link>
